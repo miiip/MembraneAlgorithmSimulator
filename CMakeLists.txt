@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.21)
+project(MPI2 C)
+set(CMAKE_C_STANDARD 99)
+include_directories(/opt/homebrew/Cellar/open-mpi/4.1.2/include)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+add_executable(MPI2 main.c)

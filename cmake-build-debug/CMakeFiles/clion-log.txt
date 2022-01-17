@@ -1,0 +1,16 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/mihailplesa/Documents/Doctorat/Experiments/MPI2
+CMake Error at CMakeLists.txt:5 (find_package):
+  Could not find a package configuration file provided by "MPI" with any of
+  the following names:
+
+    MPIConfig.cmake
+    mpi-config.cmake
+
+  Add the installation prefix of "MPI" to CMAKE_PREFIX_PATH or set "MPI_DIR"
+  to a directory containing one of the above files.  If "MPI" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/cmake-build-debug/CMakeFiles/CMakeError.log".

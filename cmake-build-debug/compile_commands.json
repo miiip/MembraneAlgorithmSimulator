@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/cmake-build-debug",
+  "command": "clang -I/opt/homebrew/Cellar/open-mpi/4.1.2/include -L/opt/homebrew/Cellar/open-mpi/4.1.2/lib -L/opt/homebrew/opt/libevent/lib -lmpi /Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/main.c -o /Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/main.c",
+  "file": "/Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/main.c"
+}
+]

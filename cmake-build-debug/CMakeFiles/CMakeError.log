@@ -1,0 +1,30 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b9997 && [1/2] Building C object CMakeFiles/cmTC_b9997.dir/test_mpi.c.o
+[2/2] Linking C executable cmTC_b9997
+FAILED: cmTC_b9997 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_b9997.dir/test_mpi.c.o -o cmTC_b9997  /opt/homebrew/Cellar/open-mpi/4.1.2/lib/libmpi.dylib && :
+ld: warning: ignoring file /opt/homebrew/Cellar/open-mpi/4.1.2/lib/libmpi.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+Undefined symbols for architecture x86_64:
+  "_MPI_Finalize", referenced from:
+      _main in test_mpi.c.o
+  "_MPI_Init", referenced from:
+      _main in test_mpi.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+

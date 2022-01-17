@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="MPI" description="MPI" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/clang" />
+      <option name="PARAMETERS" value="-I/opt/homebrew/Cellar/open-mpi/4.1.2/include -L/opt/homebrew/Cellar/open-mpi/4.1.2/lib -L/opt/homebrew/opt/libevent/lib -lmpi /Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/main.c /Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/membrane.c /Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/graph.c /Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/tsp.c -o /Users/mihailplesa/Documents/Doctorat/Experiments/MPI2/main.o" />
+      <option name="WORKING_DIRECTORY" value="/usr/bin" />
+    </exec>
+  </tool>
+</toolSet>
